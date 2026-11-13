@@ -29,6 +29,13 @@ This guide is a community effort. We are grateful to everyone who has contribute
 :::
 
 :::{grid-item-card}
+:img-top: https://github.com/aegaskin.png
+:link: https://github.com/aegaskin
+
+**Amy Gaskin**
+:::
+
+:::{grid-item-card}
 :img-top: https://github.com/ASendellPrice.png
 :link: https://github.com/ASendellPrice
 

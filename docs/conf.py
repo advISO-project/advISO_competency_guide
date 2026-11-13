@@ -18,7 +18,7 @@ under_development = True
 
 guide_subtitle = 'Competency Guide'
 
-sidebar_color = '#A8505A'
+sidebar_color = '#8E6DAE'
 
 github_repo = 'https://github.com/advISO-project/competency_guide'
 

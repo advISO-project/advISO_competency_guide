@@ -10,4 +10,5 @@ pages/6_assessing_bioinformatics_competency
 pages/7_mapping_competencies_to_sops
 pages/8_training_development
 pages/9_summary
+pages/contributors
 ```

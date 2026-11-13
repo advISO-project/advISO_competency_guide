@@ -87,6 +87,7 @@ intersphinx_disabled_domains = ['std']
 html_theme = 'sphinx_rtd_theme'
 
 html_static_path = ['_static']
+templates_path = ['_templates']
 
 html_css_files = [
     'custom.css',
@@ -109,8 +110,10 @@ epub_show_urls = 'footnote'
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '_scripts'))
 from generate_logo import generate_logo
 from generate_buttons import generate_buttons
+from generate_contributors import generate_contributors
 generate_logo(guide_subtitle)
 generate_buttons(guide_subtitle, sidebar_color)
+generate_contributors(github_repo)
 
 _css_path = os.path.join(os.path.dirname(__file__), '_static', 'custom.css')
 with open(_css_path, 'w') as _f:
